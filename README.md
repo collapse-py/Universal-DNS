@@ -15,17 +15,13 @@
 
 ### 1. 程式環境
 
-* **Python 版本：** 建議使用 Python 3.6+
-* **主要依賴庫：**
-    * `Flask`
-    * `flask-bcrypt`
-    * `ipaddress`
-    * `datetime`
-    * `collections`
 
-### 2. 安裝依賴
+主要依賴
+     `Flask`
+     `flask-bcrypt`
+     `ipaddress`
+     `datetime`
+     `collections`
 
-您可以使用 `pip` 來安裝所需的 Python 庫：
 
-```bash
-pip install Flask Flask-Bcrypt
+
