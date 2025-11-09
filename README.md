@@ -1,3 +1,4 @@
+![logo](Universal-DNS.ico "logo")
 # 📝 專案名稱：整合式 DNS 與 Web 服務平台
 
 這個專案是一個使用 Python **Flask** 框架建立的 Web 服務，並內嵌了一個使用 `socket` 模組實現的 **自定義 DNS 服務器**。它旨在提供一個同時具備管理介面（Web）和核心網路功能（DNS）的整合式平台。
