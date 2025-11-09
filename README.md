@@ -1,9 +1,9 @@
 ![logo](Universal-DNS.ico "logo")
-# 整合式 DNS 與 Web 服務平台Universal-DNS
+#整合式 DNS 與 Web 服務平台Universal-DNS
 
 這個專案是一個使用 Python **Flask** 框架建立的 Web 服務，並內嵌了一個使用 `socket` 模組實現的 **自定義 DNS 服務器**。它旨在提供一個同時具備管理介面（Web）和核心網路功能（DNS）的整合式平台。
 
-## 主要功能特色
+##主要功能特色
 
 * **雙服務整合：** 在單一 Python 應用程式中同時運行 **HTTPS Web 服務** (使用 Flask) 和 **UDP DNS 服務器**。
 * **安全 Web 介面：** 預設使用 **HTTPS** (443 埠) 運行 Flask 服務，支援 SSL/TLS 加密。
@@ -12,7 +12,7 @@
 * **錯誤容錯：** 如果 HTTPS 憑證設定失敗，程式會嘗試切換到 HTTP 模式運行（僅限調試或特定情況）。
 * **狀態監控：** 提供服務運行狀態的日誌記錄和內部狀態字典。
 
-## 重要事項
+##重要事項
 
 * **如果要在android運行需要有ROO權限
 * **可能會被防火牆擋下
