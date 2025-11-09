@@ -15,3 +15,4 @@
 
 * **如果要在android運行需要有ROO權限
 * **可能會被防火牆擋下
+* **可將cert.pem與key.pem更換
